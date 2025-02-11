@@ -1,0 +1,66 @@
+/* HeadingAnimation.css */
+
+/* Keyframes for sliding animation */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+/* Animation classes for sliding in from the bottom */
+.animate-slideUp {
+  animation: slideUp 3s ease-in-out forwards;
+}
+
+/* Ensure the container has a fixed height */
+.h-20 {
+  height: 5rem; /* Adjust this value as needed */
+}
+
+/* Center the text */
+.text-center {
+  text-align: center;
+}
+
+/* Flexbox for centering */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Add gap between static and animated text */
+}
+
+/* Ensure the h1 element takes full width */
+.relative {
+  position: relative;
+}
+
+/* Ensure the spans are positioned absolutely */
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add margin to the static text to avoid overlap */
+.inline-block {
+  display: inline-block;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
