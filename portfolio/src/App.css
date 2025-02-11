@@ -43,8 +43,20 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tilt+Neon:XROT,YROT@1,31&display=swap");
 
+* {
+  user-select: none;  /* Prevent text selection */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  pointer-events: auto; 
+}
+
 body {
   margin: 0;
   font-family: "Tilt Neon", serif;
   font-optical-sizing: auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }

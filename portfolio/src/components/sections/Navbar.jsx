@@ -128,7 +128,7 @@ export const Navbar = () => {
       {/* Desktop Navbar */}
       <section
         id="navbar-desktop"
-        className="hidden sm:block fixed w-4/5 sm:w-[90%] md:w-4/5 transform -translate-x-1/2 left-1/2 m-auto top-0 max-w-6xl p-2 md:px-15 border-b-orange-50 bg-[#000] text-white z-50 shadow-navbar"
+        className="hidden sm:block fixed w-4/5 sm:w-[90%] md:w-4/5 transform -translate-x-1/2 left-1/2 m-auto top-0 max-w-6xl p-2 md:px-15 border-b-orange-50 bg-[#000] text-white z-50 shadow-navbar rounded-b-lg"
       >
         <ul className="w-full m-auto">
           <li className="flex w-full">

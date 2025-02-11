@@ -18,9 +18,9 @@ export const AnimatedHeading = () => {
 
   return (
     <div className="overflow-hidden text-center flex justify-center items-center w-full mx-auto lg:p-1 p-0 sm:p-1">
-      <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold relative w-full text-black flex items-center justify-center gap-2 my-5 md:my-1 ">
+      <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold relative w-full text-black flex items-center justify-center my-5 md:my-1">
         {/* Static text */}
-        <span className="inline-block">Hire as a</span>
+        <span className="inline-block">Hire, as a</span>
         {/* Animated text */}
         <span className="inline-block relative w-[200px] sm:w-[300px] md:w-[350px] h-[50px] sm:h-[55px] md:h-[60px]  overflow-hidden text-red-500">
           {sections.map((section, index) => (

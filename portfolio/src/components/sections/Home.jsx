@@ -6,22 +6,21 @@ import { AnimatedHeading } from "../common/HeadingAnimation";
 export const Home = () => {
   const [button, setButton] = useState([
     {
-      href: "https://github.com/DineshRinwa",
-      icon: <i class="fa-brands fa-github"></i>,
-      label: "GitHub",
+      href: "https://www.linkedin.com/in/dinesh-rinwa/",
+      icon: <i className="fa-brands fa-linkedin"></i>,
+      label: "Linkedin",
     },
     {
-      href: "https://www.linkedin.com/in/dinesh-rinwa/",
-      icon: <i class="fa-brands fa-linkedin"></i>,
-      label: "Linkdin",
+      href: "https://github.com/DineshRinwa",
+      icon: <i className="fa-brands fa-github"></i>,
+      label: "GitHub",
     },
-    { href: "", icon: <i class="fa-regular fa-file"></i>, label: "Resume" },
+    { href: "", icon: <i className="fa-regular fa-file"></i>, label: "Resume" },
   ]);
   return (
     <section
       id="home"
       className="w-[90%] md:w-4/5 flex flex-col-reverse md:flex-row mx-auto py-10 sm:py-20 max-w-6xl sm:mt-10"
-
     >
       {/* Left Container */}
       <div className="left-container flex flex-col w-full sm:w-4/5 md:w-3/5 lg:3/5 py-8">
@@ -61,9 +60,9 @@ export const Home = () => {
 
       {/* Right Container */}
       <div className="right-container w:4/5 sd:w-4/5">
-        <div class="flex items-center justify-center p-4">
+        <div className="flex items-center justify-center p-4">
           <img
-            class="sm:w-[330px] sm:h-[330px] w-[200px] h-[200px]  rounded-full object-cover border-4 border-[#b1ca9ff8] shadow-[0_8px_40px_rgba(69,219,5,0.475),0_0_10px_rgba(69,219,5,0.5)_inset] transition-transform duration-400 ease-in-out hover:scale-105 hover:shadow-[0_12px_50px_rgba(69,219,5,0.6),0_0_15px_rgba(69,219,5,0.6)_inset]"
+            className="sm:w-[330px] sm:h-[330px] w-[200px] h-[200px]  rounded-full object-cover border-4 border-[#b1ca9ff8] shadow-[0_8px_40px_rgba(69,219,5,0.475),0_0_10px_rgba(69,219,5,0.5)_inset] transition-transform duration-400 ease-in-out hover:scale-105 hover:shadow-[0_12px_50px_rgba(69,219,5,0.6),0_0_15px_rgba(69,219,5,0.6)_inset]"
             src={profile1}
             alt="Profile Image"
           />
