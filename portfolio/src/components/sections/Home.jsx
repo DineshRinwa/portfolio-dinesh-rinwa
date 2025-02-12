@@ -1,22 +1,28 @@
-import { useState } from "react";
 import profile from "../../assets/profile.jpg";
 import profile1 from "../../assets/profile1.jpg";
 import { AnimatedHeading } from "../common/HeadingAnimation";
 
 export const Home = () => {
-  const [button, setButton] = useState([
+  const buttonLinks = [
     {
       href: "https://www.linkedin.com/in/dinesh-rinwa/",
       icon: <i className="fa-brands fa-linkedin"></i>,
-      label: "Linkedin",
+      label: "LinkedIn",
+      bgColor: "bg-[#0077b5] hover:bg-[#005582]",
     },
     {
       href: "https://github.com/DineshRinwa",
       icon: <i className="fa-brands fa-github"></i>,
       label: "GitHub",
+      bgColor: "bg-[#333] hover:bg-[#444]",
     },
-    { href: "", icon: <i className="fa-regular fa-file"></i>, label: "Resume" },
-  ]);
+    {
+      href: "",
+      icon: <i className="fa-regular fa-file"></i>,
+      label: "Resume",
+      bgColor: "bg-[#555] hover:bg-[#666]",
+    },
+  ];
   return (
     <section
       id="home"
@@ -36,7 +42,7 @@ export const Home = () => {
         </p>
 
         <div className="flex w-full mt-5">
-          {button.map((item, index) => (
+          {buttonLinks.map((item, index) => (
             <a
               key={index}
               href={item.href}

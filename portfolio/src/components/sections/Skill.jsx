@@ -1,9 +1,6 @@
-import { useState } from "react";
-import { skill } from "../../data/skill&Tool";
+import { skill } from "../../data/skillTool"; // Ensure correct filename
 
 export const Skill = () => {
-  const [data, setData] = useState(skill);
-
   return (
     <section
       id="skill"
@@ -13,21 +10,23 @@ export const Skill = () => {
         Technical Skills <span className="text-red-600">&</span> Tools
       </h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 grid-rows-1 gap-x-10 gap-y-15 mt-20">
-        {data.map((item, index) => (
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-8 gap-y-10 mt-20">
+        {skill.map((item, index) => (
           <div
             key={index}
             className="flex flex-col items-center py-4 transition-transform duration-300 hover:scale-105"
           >
             {/* Icon */}
-            <div className="w-[100px] h-[100px] flex items-center justify-center rounded-full m-0 bg-[#e9ecef] text-white shadow-[0px_13px_27px_-5px_rgba(50,50,93,0.25),_0px_8px_16px_-8px_rgba(0,0,0,0.3)]
-">
-              <img src={item.link} alt="Skill_Image" className="w-[60px] h-[60px] flex items-center justify-center" />
+            <div className="w-[100px] h-[100px] flex items-center justify-center rounded-full bg-[#e9ecef] shadow-lg">
+              <img
+                src={item.link}
+                alt={`${item.title} icon`}
+                className="w-[60px] h-[60px]"
+              />
             </div>
 
             {/* Title */}
-            <div className="border-2 w-[130px] h-[40px] flex items-center justify-center rounded-3xl mt-[-25px]  text-white bg-black border-black shadow-[0px_13px_27px_-5px_rgba(50,50,93,0.25),_0px_8px_16px_-8px_rgba(0,0,0,0.3)]
-">
+            <div className="border-2 w-[130px] h-[40px] flex items-center justify-center rounded-3xl -mt-6 text-white bg-black border-black shadow-lg">
               <p className="text-center tracking-widest">{item.title}</p>
             </div>
           </div>

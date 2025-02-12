@@ -2,29 +2,29 @@ export const Education = () => {
   return (
     <section
       id="education"
-      className="m-auto p-2 max-w-6xl w-full sm:w-9/10 lg:w-4/5 mt-50 h-auto"
+      className="m-auto p-2 max-w-6xl w-full sm:w-9/10 lg:w-4/5 mt-12 h-auto"
     >
-      <h1 className="heading text-4xl md:text-5xl lg:text-6xl text-center font-bold leading-11 sm:leading-16 tracking-wider mt-6 lg:mt-16 mb-20">
-        Experience
-        <span className="text-red-600"> & </span> Education
+      <h1 className="heading text-4xl md:text-5xl lg:text-6xl text-center font-bold leading-tight sm:leading-tight tracking-wider mt-6 lg:mt-16 mb-16">
+        Experience <span className="text-red-600">&</span> Education
       </h1>
 
-      {/* As a Web Developer  */}
+      {/* Experience as a Web Developer */}
       <div className="tracking-wider text-center md:mx-10 border rounded-lg px-5 py-5 lg:py-10 lg:px-10">
         <h1 className="text-start font-bold text-2xl mb-2 text-red-500 tracking-wider">
-          Experience as a WebDeveloper
+          Experience as a Web Developer
         </h1>
 
-        <h1 className="text-start font-bold text-md mb-4 text-red-500 tracking-wider">
+        <h2 className="text-start font-semibold text-md mb-4 text-red-500 tracking-wider">
           <span className="text-white bg-black px-2 py-1 font-light rounded-md">
-            07-2023 To 03-2025
+            07 - 2023 To 03 - 2025
           </span>
-        </h1>
+        </h2>
+
         <p>
           For the past{" "}
-          <span className="text-white bg-black px-2">18 months</span>, Dinesh
-          Rinwa has actively engaged in coding and developing projects focused
-          on solving real-world challenges. With a commitment of{" "}
+          <span className="text-white bg-black px-2">18 months</span>, I have
+          actively engaged in coding and developing projects focused on solving
+          real-world challenges. With a commitment of{" "}
           <span className="text-white bg-black px-2">6-7 hours daily</span>,{" "}
           <span className="text-white bg-black px-2">7 days a week</span>, he
           has cultivated expertise across frontend and backend technologies,
@@ -35,25 +35,25 @@ export const Education = () => {
         </p>
       </div>
 
-      {/* As a Crypto Trader */}
-      <div className="tracking-wider text-center md:mx-10 border rounded-lg mt-20 px-5 py-5 lg:py-10 lg:px-10">
+      {/* Experience as a Crypto Trader */}
+      <div className="tracking-wider text-center md:mx-10 border rounded-lg mt-16 px-5 py-5 lg:py-10 lg:px-10">
         <h1 className="text-start font-bold text-2xl mb-2 text-red-500 tracking-wider">
           Crypto Trader | Portfolio Manager
         </h1>
-        <h1 className="text-start font-bold text-md mb-4 text-red-500 tracking-wider">
+
+        <h2 className="text-start font-semibold text-md mb-4 text-red-500 tracking-wider">
           <span className="text-white bg-black px-2 py-1 font-light rounded-md">
             Experience - 3.5 Years
           </span>
-        </h1>
+        </h2>
 
         <p>
           Over <span className="text-white bg-black px-2">3.5 years</span> of
           experience managing client portfolios with a disciplined focus on
           strategic risk-reward ratios, consistently achieving{" "}
-          <span className="text-white bg-black px-2"> ~90% profitability </span>
-          {"  "}
+          <span className="text-white bg-black px-2">~90% profitability</span>{" "}
           while maintaining losses at{" "}
-          <span className="text-white bg-black px-2"> 5-10% </span>. Leveraged
+          <span className="text-white bg-black px-2">5-10%</span>. Leveraged
           technical and sentiment analysis to capitalize on emerging trends,
           including NFTs, AI-driven markets, and automated trading agents.
           Demonstrated adaptability across extreme market cycles (bull/bear),
@@ -63,7 +63,8 @@ export const Education = () => {
         </p>
       </div>
 
-      <div className="experience tracking-wider text-center md:mx-10 border rounded-lg mt-20 px-5 py-5 lg:py-10 lg:px-10">
+      {/* Masai School Graduate */}
+      <div className="tracking-wider text-center md:mx-10 border rounded-lg mt-16 px-5 py-5 lg:py-10 lg:px-10">
         <h1 className="text-start font-bold text-2xl mb-5 text-red-500 tracking-wider">
           Full Stack Web Developer | Certified Masai School Graduate
         </h1>
@@ -78,9 +79,10 @@ export const Education = () => {
         </p>
       </div>
 
-      <div className="experience tracking-wider text-center md:mx-10 border rounded-lg mt-20 px-5 py-5 lg:py-10 lg:px-10">
+      {/* Academic Background */}
+      <div className="tracking-wider text-center md:mx-10 border rounded-lg mt-16 px-5 py-5 lg:py-10 lg:px-10">
         <h1 className="text-start font-bold text-2xl mb-5 text-red-500 tracking-wider">
-          **Academic Background & Transition to IT**
+          Academic Background & Transition to IT
         </h1>
 
         <p>
