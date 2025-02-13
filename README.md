@@ -69,7 +69,7 @@ This portfolio website is designed to make a strong impression through its moder
 
 Here's a high-level overview of the project structure:
 
-/portfolio-app ├── public │ └── assets │ ├── images // Profile, project, and skill images │ └── favicon.ico ├── src │ ├── components // Reusable components (Navbar, Footer, Card, etc.) │ ├── sections // Home, Projects, Skills, Experience, Contact, etc. │ ├── App.js // Main application file │ ├── index.js // Entry point │ └── styles.css // Global styles (integrated with Tailwind CSS) ├── package.json └── README.md
+![structure Of Portfolio  Screenshot](./portfolio/./src/assets/structureOfApp.png)
 
 
 
