@@ -18,7 +18,6 @@ A modern, fully responsive portfolio website built with **React**, **Tailwind CS
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -83,3 +82,6 @@ Here's a high-level overview of the project structure:
    ```bash
    git clone https://github.com/yourusername/portfolio-app.git
    cd portfolio-app
+
+
+   
