@@ -1,10 +1,9 @@
-import SaaSCode from "../assets/SaaS-code.png"
+
 
 export const projects = [
   {
     id: 1,
-    image:
-      SaaSCode,
+    image: "/images/Saas-code.png",
     heading: "SaaS Code Editor",
     description:
       "A powerful, cloud-based Online Code Editor supporting 10+ programming languages, designed with a customizable VSCode-like interface, intelligent output handling, and a community-driven code-sharing platform. Write, test, and share effortlessly—all in one place! ✨",
