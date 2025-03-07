@@ -9,7 +9,6 @@ export const Project = () => {
       <h1 className="heading text-4xl md:text-5xl lg:text-6xl text-center font-bold leading-11 sm:leading-16 tracking-wider mt-6 lg:mt-16">
         Future-Ready Projects with <span className="text-red-600">AI</span>
       </h1>
-      <p className="text-center text-red-600">*Real Porject coming soon...*</p>
 
       <div className="mt-10 md:mt-20 p-4 grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-35">
         {projects.map((item, index) => (

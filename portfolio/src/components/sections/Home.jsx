@@ -1,8 +1,14 @@
 import profile from "../../assets/profile.jpg";
 import profile1 from "../../assets/profile1.jpg";
+import Resume from "../../assets/resume.pdf";
 import { AnimatedHeading } from "../common/HeadingAnimation";
 
 export const Home = () => {
+  const handleResumeClick = (e) => {
+    e.preventDefault();
+    window.open(Resume, "_blank"); // Open in new tab
+  }
+  
   const buttonLinks = [
     {
       href: "https://www.linkedin.com/in/dinesh-rinwa/",
@@ -17,7 +23,7 @@ export const Home = () => {
       bgColor: "bg-[#333] hover:bg-[#444]",
     },
     {
-      href: "",
+      href: "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67cad31e3bc96bedb0b30fd1",
       icon: <i className="fa-regular fa-file"></i>,
       label: "Resume",
       bgColor: "bg-[#555] hover:bg-[#666]",
@@ -46,6 +52,7 @@ export const Home = () => {
             <a
               key={index}
               href={item.href}
+              onClick={item.label === "Resume" ? handleResumeClick : undefined }
               target="_blank"
               className={`relative inline-flex text-[13px] sm:text-[.8rem] md:text-[.9rem] items-center mx-0 gap-2 
             px-4 py-1 sm:px-2 sm:py-1 md:px-4 md:py-2 lg:py-2  lg:px-4 text-white  tracking-widest font-medium rounded-full transition-all duration-300 shadow-md overflow-hidden 
