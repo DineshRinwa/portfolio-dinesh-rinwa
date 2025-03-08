@@ -1,75 +1,65 @@
-# portfolio-dinesh-rinwa
-A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion. It showcases my skills, projects, and experience as a Full Stack Web Developer. Features include a dynamic homepage, project gallery, skills section, and contact form, offering a clean and interactive user experience.
-<br/><br/>
-<a href="https://www.linkedin.com/in/dinesh-rinwa" target="_blank" rel="noopener noreferrer">
-  LinkedIn Profile
-</a>
-<br/><br/>
-<a href="https://dinesh-rinwa.vercel.app/" target="_blank" rel="noopener noreferrer">
-  Live Demo
-</a>
+# 🚀 Portfolio - Dinesh Rinwa  
 
+A modern, responsive **portfolio website** built with **React, Tailwind CSS, and Framer Motion**. It showcases my **skills, projects, and experience** as a **Full Stack Web Developer**.  
 
-# 🚀 Modern Responsive Portfolio Website
+🔗 **[Live Demo]()**  
+🔗 **[LinkedIn Profile]()**  
 
-A modern, fully responsive portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. This project showcases my skills, projects, and experience as a Full Stack Web Developer while offering an interactive and clean user experience.
+## 🚀 Modern Responsive Portfolio Website  
 
----
+A fully **responsive** portfolio website built using **React, Tailwind CSS, and Framer Motion**. This project highlights my **skills, projects, and experience** while providing a clean and interactive user experience.  
 
-## 📖 Table of Contents
+## 📖 Table of Contents  
+- 🔍 [Overview](#overview)  
+- ✨ [Features](#features)  
+- 🛠 [Technologies Used](#technologies-used)  
+- 📂 [Project Structure](#project-structure)  
+- ⚙️ [Installation & Setup](#installation--setup)  
+- 🚀 [Usage](#usage)  
+- 🖼 [Screenshots](#screenshots)  
+- 🤝 [Contributing](#contributing)  
+- 📞 [Contact](#contact)  
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [Contact](#contact)
+## 🔍 Overview  
+This portfolio website is designed to make a **strong impression** through its **modern design and smooth animations**. It includes multiple sections:  
 
----
+### **📌 Navbar:**  
+- **Mobile:** A **modern, icon-based bottom navbar** for a minimal look.  
+- **Tablet & Desktop:** A **top navbar** featuring full text options: **Home, Projects, Skills, Education, and Contact.**  
 
-## 🔍 Overview
+### **🏠 Home Section:**  
+#### **Left Div:**  
+- **Animated heading:** "Hire as a Frontend Developer | Full Stack Developer".  
+- A **short professional summary** in a paragraph.  
+- **Three action buttons** with icons for **LinkedIn, GitHub, and Resume.**  
 
-This portfolio website is designed to make a strong impression through its modern design and smooth animations. It includes multiple sections:
+#### **Right Div:**  
+- A prominent, **fully rounded profile image.**  
 
-- **Navbar:**  
-  - **Mobile:** A modern, icon-based bottom navbar for a minimal look.
-  - **Tablet & Desktop:** A top navbar featuring full text options: Home, Projects, Skills, Education, and Contact.
+### **📂 Projects Section:**  
+- **Heading:** "Future Ready Projects with AI".  
+- A **responsive grid of project cards.** Each card includes:  
+  - **Project image.**  
+  - **Project title and brief description.**  
+  - **List of technologies used.**  
+  - **Two buttons:**  
+    - **GitHub Repository** link.  
+    - **Live Demo** link.  
 
-- **Home Section:**  
-  - **Left Div:**  
-    - Animated heading: **"Hire as a Frontend Developer | Full Stack Developer"**.
-    - A short professional summary in a paragraph.
-    - Three action buttons with icons for **LinkedIn**, **GitHub**, and **Resume**.
-  - **Right Div:**  
-    - A prominent, fully rounded profile image.
+### **🛠 Skills & Tools Section:**  
+- Display of **various skills and tools** with images inside **bordered, rounded containers** – optimized for responsiveness across all devices.  
 
-- **Projects Section:**  
-  - Heading: **"Future Ready Projects with AI"**.
-  - A responsive grid of project cards. Each card includes:
-    - Project image.
-    - Project title and brief description.
-    - List of technologies used.
-    - Two buttons: one linking to the project's **GitHub** repository and another for the **Live Demo**.
+### **🎓 Experience & Education Section:**  
+- A clean layout featuring **headings** and **descriptive paragraphs** about **professional experience and educational background.**  
 
-- **Skills & Tools Section:**  
-  - Display of various skills and tools with images inside bordered, rounded containers – optimized for responsiveness across all devices.
+### **📞 Contact Section:**  
+- Contains **contact information** and/or a **functional contact form** for quick communication.  
 
-- **Experience & Education Section:**  
-  - A clean layout featuring headings and descriptive paragraphs about professional experience and educational background.
+## 💻 Technologies Used  
+- **React.js** – For building a **dynamic and component-based UI.**  
+- **Tailwind CSS** – For **fast and responsive styling.**  
+- **Framer Motion** – For **smooth animations and interactive UI elements.**  
 
-- **Contact Section:**  
-  - Contains contact information and/or a functional contact form for quick communication.
-
----
-
-## 💻 Technologies Used
-
-- **React** – For building a dynamic and component-based UI.
-- **Tailwind CSS** – For fast and responsive styling.
-- **Framer Motion** – For smooth animations and interactive UI elements.
 
 ---
 
