@@ -3,7 +3,7 @@
 A modern, responsive **portfolio website** built with **React, Tailwind CSS, and Framer Motion**. It showcases my **skills, projects, and experience** as a **Full Stack Web Developer**.  
 
 <a href="https://dinesh-rinwa.vercel.app/" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>  
-<a href="www.linkedin.com/in/dinesh-rinwa" target="_blank" rel="noopener noreferrer">🔗 LinkedIn Profile</a>
+<a href="https://www.linkedin.com/in/dinesh-rinwa/" target="_blank" rel="noopener noreferrer">🔗 LinkedIn Profile</a>
 
 
 ## 🚀 Modern Responsive Portfolio Website  
