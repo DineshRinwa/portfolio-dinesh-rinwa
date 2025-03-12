@@ -98,7 +98,7 @@ export const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            placeholder="Dinesh Rinwa"
+            placeholder="Enter Your Name"
             aria-label="Name"
             className="text-center border-2 p-2 text-lg tracking-wider rounded-lg min-w-[19rem] max-w-[450px]"
           />
@@ -124,6 +124,8 @@ export const Contact = () => {
             id="message"
             value={formData.message}
             onChange={handleChange}
+            cols={35}
+            rows={5}
             onInput={(e) => {
               e.target.style.height = "auto"; // Reset height
               e.target.style.height = e.target.scrollHeight + "px"; // Adjust height
@@ -131,7 +133,7 @@ export const Contact = () => {
             required
             placeholder="Enter Your Message"
             aria-label="Message"
-            className="text-center border-2 p-2 text-lg tracking-wider rounded-lg min-w-[19rem] max-w-[450px] m-8 overflow-hidden resize-none"
+            className="text-left border-2 p-2 text-lg tracking-wider rounded-lg min-w-[19rem] max-w-[450px] m-8 overflow-hidden resize-none"
           />
         </div>
 
