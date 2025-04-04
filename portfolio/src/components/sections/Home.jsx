@@ -1,6 +1,6 @@
 import profile from "../../assets/profile.jpg";
 import profile1 from "../../assets/profile1.jpg";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/DineshRinwaResume.pdf";
 import { AnimatedHeading } from "../common/HeadingAnimation";
 
 export const Home = () => {
@@ -23,7 +23,7 @@ export const Home = () => {
       bgColor: "bg-[#333] hover:bg-[#444]",
     },
     {
-      href: "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67cad31e3bc96bedb0b30fd1",
+      href: "DineshRinwaResume",
       icon: <i className="fa-regular fa-file"></i>,
       label: "Resume",
       bgColor: "bg-[#555] hover:bg-[#666]",

@@ -1,5 +1,3 @@
-
-
 export const projects = [
   {
     id: 1,
@@ -7,19 +5,37 @@ export const projects = [
     heading: "SaaS Code Editor",
     description:
       "A powerful, cloud-based Online Code Editor supporting 10+ programming languages, designed with a customizable VSCode-like interface, intelligent output handling, and a community-driven code-sharing platform. Write, test, and share effortlessly—all in one place! ✨",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwindcss", "Framer-motion", "Clerk", "Vite"],
+    tech: [
+      "React",
+      "Tailwindcss",
+      "Framer-motion",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      ,
+      "Clerk",
+      "Vite",
+    ],
     githubURL: "https://github.com/DineshRinwa/-SaaS-Code-Editor",
     liveDemo: "https://saa-s-code-editor.vercel.app/",
   },
   {
     id: 2,
-    image:
-      "https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/cb832fa4-9b4f-11e6-8d2a-00163ed833e7/2196851975/slack-Windows-Slack-client-for-media-kit.en-IN%202x.png",
-    heading: "Slack Clone",
+    image: "/images/Lenskart.png",
+    heading: "Lenskart WebApp",
     description:
-      "**Project is Under Development**",
-    tech: ["React", "NextJs", "Tailwindcss", "Auth.js"],
-    githubURL: "https://github.com/user/weather-app",
-    liveDemo: "https://weatherapp-demo.com",
+      "This is a full-stack e-commerce web application inspired by 🕶️ Lenskart, built using MERN stack (MongoDB, Express, React, Node.js). It features a seamless shopping experience for eyewear, including glasses, sunglasses, and contact lenses.",
+    tech: [
+      "React",
+      "Tailwindcss",
+      "Framer Motion",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Vite",
+    ],
+    githubURL: "https://github.com/DineshRinwa/lenskart-webapp",
+    liveDemo: "https://lenskart-webapp-seven.vercel.app/",
   },
 ];
